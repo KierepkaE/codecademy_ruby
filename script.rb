@@ -12,14 +12,14 @@ when "add"
   puts "What movie would you like to add? "
   title = gets.chomp
   if movies[title.to_sym].nil?
-    puts "What rating does the movie have? "
+    puts "How would you rate this movie? "
     rating = gets.chomp
     movies[title.to_sym] = rating.to_i
   else
-    puts "That movie already exists! Its rating is #{movies[title.to_sym]}."
+    puts "That movie already exists! It's rating is #{movies[title.to_sym]}."
   end
 when "update"
-puts "Title?  "
+puts "What's the title?  "
   title = gets.chomp
   if movies[title].nil?
     puts "You didn't rate this movie yet!"
