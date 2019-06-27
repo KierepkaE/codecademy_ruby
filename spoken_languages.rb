@@ -1,7 +1,6 @@
 puts "What's your language?"
 greeting = gets.chomp
 
-# Add your case statement below!
 case greeting
   when "English"
   puts "Hello!"
