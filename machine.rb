@@ -6,9 +6,15 @@ class Computer
       @files = {}
       @@users[username]=password
     end
+
     def create(filename)
       time = Time.now
       @files[filename]=time
       puts "User: #{@username} created a file: #{filename} at #{time}."
     end
+
+    def Computer.get_users
+     @@users
+  end
+
   end
