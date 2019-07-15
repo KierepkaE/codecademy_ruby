@@ -1,3 +1,3 @@
 # codecademy_ruby
 
-### codeacademy ruby projects
+### codecademy ruby projects
